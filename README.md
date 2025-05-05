@@ -1,35 +1,84 @@
-BiblioGest - Software de Gestión Bibliotecaria Eficiente
-BiblioGest es un software de escritorio creado para facilitar y optimizar la gestión de bibliotecas, permitiendo a los administradores controlar catálogos de libros, usuarios y préstamos de manera eficiente. La aplicación está desarrollada en Java , utilizando Swing para la interfaz gráfica, y se conecta a una base de datos MySQL mediante JDBC o Hibernate para la persistencia de datos. Además, cuenta con funcionalidades automatizadas para alertar sobre préstamos vencidos y generar informes detallados en formato PDF.
+# 📚 BiblioGest – Sistema de Gestión Bibliotecaria Escolar
 
-Características principales :
-Gestión de Libros : Agrega, edita y elimina libros del catálogo de manera sencilla y rápida.
-Gestión de Usuarios : Registra nuevos usuarios y gestiona su historial de préstamos, devoluciones y sanciones.
-Automatización de Préstamos : Envía recordatorios y alertas cuando los préstamos están a punto de vencer o ya han vencido.
-Búsqueda Avanzada : Los usuarios pueden buscar libros por título, autor, categoría o fecha de publicación, facilitando el acceso rápido a los recursos.
-Generación de Informes : Los administradores pueden exportar informes en formato PDF sobre el inventario de libros y el historial de préstamos, ayudando a una mejor toma de decisiones.
-Tecnologías utilizadas :
-Java (Swing) : Utilizado para el desarrollo de una interfaz gráfica amigable y fácil de usar.
-MySQL : Base de datos relacional utilizada para almacenar información sobre libros, usuarios y préstamos.
-JDBC / Hibernate : Herramientas que facilitan la conexión y el acceso eficiente a la base de datos.
-iText : Librería utilizada para generar informes y documentos en formato PDF.
-Git/GitHub : Control de versiones para mantener un historial detallado de los cambios en el código y facilitar la colaboración.
-Estructura del proyecto :
-El proyecto está estructurado en varios módulos que permiten una mejor organización y mantenimiento del código:
+**BiblioGest** es una aplicación de escritorio desarrollada en **Java** con interfaz gráfica usando **Swing**, diseñada para facilitar la gestión de bibliotecas escolares. Permite controlar libros, usuarios y préstamos, automatizando tareas comunes como avisos por vencimientos y generación de informes en PDF.
 
-Módulo de Gestión de Libros : Incluye todas las funcionalidades relacionadas con la administración de los libros, como agregar, editar, eliminar y buscar libros.
-Módulo de Gestión de Usuarios : Gestiona las operaciones de registro de usuarios y el manejo de su historial de préstamos.
-Módulo de Préstamos : Automatiza la emisión de préstamos y devoluciones, gestionando las fechas y alertas.
-Generación de Informes : Permite la creación de informes PDF con estadísticas sobre los libros y los beneficios obtenidos.
-Cómo usar BiblioGest :
-Instalación :
-Clona el repositorio de GitHub.
-Configura tu base de datos MySQL.
-Importa el esquema de la base de datos proporcionada en la carpeta /db.
-Asegúrese de tener configuradas las dependencias de JDBC o Hibernate en su entorno de desarrollo.
-Ejecución :
-Abre el proyecto en NetBeans o el IDE de tu preferencia.
-Compila y ejecuta la aplicación desde el entorno de desarrollo.
-Funciones principales :
-Navega a través del menú principal para gestionar libros, usuarios y préstamos.
-Usa el panel de búsqueda para encontrar rápidamente libros según varios criterios.
-Exporta informes de inventario e historial de préstamos en PDF desde el menú de administración.
+> Este proyecto fue desarrollado como parte del módulo de Desarrollo de Aplicaciones Multiplataforma (DAM) y tiene como objetivo digitalizar los procesos de préstamo y administración de bibliotecas de centros educativos.
+
+---
+
+## 🧩 Características destacadas
+
+✅ **Gestión de libros**  
+- Agregar, modificar o eliminar libros del catálogo  
+- Búsqueda avanzada por título, autor, categoría o año de publicación  
+
+👤 **Gestión de usuarios**  
+- Registro de nuevos usuarios  
+- Consulta de historial de préstamos, devoluciones y sanciones  
+
+🔄 **Automatización de préstamos**  
+- Emisión y devolución de libros con control de fechas  
+- Alertas automáticas por vencimientos de préstamos  
+
+📈 **Informes en PDF**  
+- Generación de reportes del inventario y del historial de préstamos utilizando **iText**
+
+🔒 **Control de roles**  
+- Diferenciación entre usuarios comunes y administradores
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+| Herramienta         | Descripción                                              |
+|---------------------|----------------------------------------------------------|
+| Java (Swing)        | Interfaz gráfica de escritorio                           |
+| MySQL               | Base de datos relacional                                 |
+| JDBC / Hibernate    | Acceso a datos                                           |
+| iText               | Generación de archivos PDF                               |
+| NetBeans / IntelliJ | Entornos de desarrollo                                   |
+| Git / GitHub        | Control de versiones y colaboración                      |
+
+---
+
+## 🧱 Estructura del Proyecto
+
+- **📘 Módulo de Libros**: Gestión del catálogo, búsquedas, stock
+- **👤 Módulo de Usuarios**: Registro, consultas y control de préstamos
+- **🔄 Módulo de Préstamos**: Emisión y devoluciones con validaciones
+- **📊 Módulo de Informes**: Estadísticas exportables en PDF
+
+---
+
+## 🚀 Instalación y ejecución
+
+### 🔧 Requisitos
+
+- Java JDK 11+
+- Servidor MySQL
+- IDE como NetBeans o IntelliJ
+- Conexión JDBC o Hibernate configurada
+
+### 📦 Pasos
+
+1. Clona el repositorio:
+   ```
+   git clone https://github.com/tu-usuario/bibliogest.git
+2. Configura la base de datos:
+
+   - Crea una base de datos MySQL (biblioteca)
+
+   - Importa el script SQL incluido en /db
+
+3. Abre el proyecto en tu IDE y configura la conexión a la base de datos en hibernate.cfg.xml o mediante JDBC
+
+4. Compila y ejecuta la aplicación desde tu entorno
+
+## 📌 Objetivos del Proyecto
+ - Mejorar la eficiencia en el registro y control de libros
+
+ - Facilitar el acceso y gestión del historial de préstamos
+
+ - Automatizar alertas y generar informes útiles para la toma de decisiones
+
+ - Reforzar habilidades de desarrollo en Java, diseño de bases de datos y experiencia de usuario
