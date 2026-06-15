@@ -1,4 +1,4 @@
-# 📚 BiblioGest – Sistema de Gestión Bibliotecaria Escolar
+#  BiblioGest – Sistema de Gestión Bibliotecaria Escolar
 
 **BiblioGest** es una aplicación de escritorio desarrollada en **Java** con interfaz gráfica usando **Swing**, diseñada para facilitar la gestión de bibliotecas escolares. Permite controlar libros, usuarios y préstamos, automatizando tareas comunes como avisos por vencimientos y generación de informes en PDF.
 
@@ -6,29 +6,29 @@
 
 ---
 
-## 🧩 Características destacadas
+##  Características destacadas
 
-✅ **Gestión de libros**  
+ **Gestión de libros**  
 - Agregar, modificar o eliminar libros del catálogo  
 - Búsqueda avanzada por título, autor, categoría o año de publicación  
 
-👤 **Gestión de usuarios**  
+ **Gestión de usuarios**  
 - Registro de nuevos usuarios  
 - Consulta de historial de préstamos, devoluciones y sanciones  
 
-🔄 **Automatización de préstamos**  
+ **Automatización de préstamos**  
 - Emisión y devolución de libros con control de fechas  
 - Alertas automáticas por vencimientos de préstamos  
 
-📈 **Informes en PDF**  
+ **Informes en PDF**  
 - Generación de reportes del inventario y del historial de préstamos utilizando **iText**
 
-🔒 **Control de roles**  
+ **Control de roles**  
 - Diferenciación entre usuarios comunes y administradores
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+##  Tecnologías utilizadas
 
 | Herramienta         | Descripción                                              |
 |---------------------|----------------------------------------------------------|
@@ -41,25 +41,25 @@
 
 ---
 
-## 🧱 Estructura del Proyecto
+##  Estructura del Proyecto
 
-- **📘 Módulo de Libros**: Gestión del catálogo, búsquedas, stock
-- **👤 Módulo de Usuarios**: Registro, consultas y control de préstamos
-- **🔄 Módulo de Préstamos**: Emisión y devoluciones con validaciones
-- **📊 Módulo de Informes**: Estadísticas exportables en PDF
+- ** Módulo de Libros**: Gestión del catálogo, búsquedas, stock
+- ** Módulo de Usuarios**: Registro, consultas y control de préstamos
+- ** Módulo de Préstamos**: Emisión y devoluciones con validaciones
+- ** Módulo de Informes**: Estadísticas exportables en PDF
 
 ---
 
-## 🚀 Instalación y ejecución
+##  Instalación y ejecución
 
-### 🔧 Requisitos
+###  Requisitos
 
 - Java JDK 11+
 - Servidor MySQL
 - IDE como NetBeans o IntelliJ
 - Conexión JDBC o Hibernate configurada
 
-### 📦 Pasos
+###  Pasos
 
 1. Clona el repositorio:
    ```
@@ -74,7 +74,7 @@
 
 4. Compila y ejecuta la aplicación desde tu entorno
 
-## 📌 Objetivos del Proyecto
+##  Objetivos del Proyecto
  - Mejorar la eficiencia en el registro y control de libros
 
  - Facilitar el acceso y gestión del historial de préstamos
